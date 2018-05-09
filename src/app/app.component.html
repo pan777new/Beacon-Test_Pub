@@ -1,0 +1,3 @@
+<button *ngFor="let link of links" (click)="changeCurrentLink($event, link)">{{getLinkName()}}</button>
+
+<app-mylink [link]="currentLink"></app-mylink>
